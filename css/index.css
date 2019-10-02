@@ -966,6 +966,9 @@ fen {
     padding-bottom: 10px;
     font-size: 13px;
 }
+.dou-read .dou-read-content .aside-right ul li span{
+    margin-top: 3px;
+}
 .dou-read .dou-read-content .aside-right ul li span:hover{
     color: #fff;
     background-color: #27a;
