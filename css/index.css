@@ -966,8 +966,11 @@ fen {
     padding-bottom: 10px;
     font-size: 13px;
 }
+.dou-read .dou-read-content .aside-right ul li:last-child{
+    border: none;
+}
 .dou-read .dou-read-content .aside-right ul li a{
-    margin-top: 20px;
+    line-height: 1.5;
 }
 .dou-read .dou-read-content .aside-right ul li a:hover{
     color: #fff;
@@ -976,9 +979,7 @@ fen {
 .dou-read .dou-read-content .aside-right ul li .first{
     color: #bbb;
 }
-.dou-read .dou-read-content .aside-right ul li a{
-    margin: 0 5px;
-}
+
 .dou-read .dou-read-content .main .mod h2{
     font-weight: 400;
     font-size: 13px;
