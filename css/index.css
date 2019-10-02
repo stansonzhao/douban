@@ -966,10 +966,10 @@ fen {
     padding-bottom: 10px;
     font-size: 13px;
 }
-.dou-read .dou-read-content .aside-right ul li span{
+.dou-read .dou-read-content .aside-right ul li a{
     margin-top: 3px;
 }
-.dou-read .dou-read-content .aside-right ul li span:hover{
+.dou-read .dou-read-content .aside-right ul li a:hover{
     color: #fff;
     background-color: #27a;
 }
