@@ -1,0 +1,1366 @@
+@charset "utf-8";
+@import "//at.alicdn.com/t/font_1424543_vutxxrhudqc.css";
+
+/* 统一样式 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.head-text {
+    color: #072;
+}
+
+.head-text-end {
+    color: rgb(51, 119, 170);
+    font-size: 12px;
+}
+
+.hover-a {
+    color: rgb(51, 119, 170);
+}
+
+.hover-a:hover {
+    color: white;
+    background-color: rgb(51, 119, 170);
+}
+
+.hover-a:active {
+    background-color: orange;
+}
+
+.dou-nav-head {
+    color: #494949;
+    font-weight: 400;
+}
+
+.dou-nav-head:hover {
+    background-color: rgb(51, 119, 170);
+    color: white;
+}
+
+.dou-nav-head:active {
+    background-color: orange;
+    color: white;
+}
+
+/* 统一样式结束 */
+body {
+    padding-top: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+button {
+    border: none;
+    outline: none;
+    outline-offset: 0;
+    background-color: initial;
+}
+
+input {
+    border: none;
+    outline: none;
+    outline-offset: 0;
+}
+
+/* 导航栏 */
+
+.nav {
+    width: 950px;
+    margin: 0 auto 25px;
+    height: 34px;
+    overflow: hidden;
+}
+
+/* logo区域 */
+.nav .logo {
+    width: 160px;
+    height: 34px;
+    display: inline-block;
+    background: url(/img/logo_db.png) no-repeat 0 0;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.nav .logo a {
+    visibility: hidden;
+}
+
+/* 搜索框区域 */
+.nav .search {
+    width: 280px;
+    height: 32px;
+    font-size: 12px;
+    border: 1px solid #c3c3c3;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+
+from {
+    height: 32px;
+}
+
+.nav .search form input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.nav .search button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+}
+
+.nav .search form input::placeholder {
+    font-size: 13px;
+    color: #c2c2c2;
+}
+
+.nav .nav-list ul {
+    float: right;
+    margin-top: 7px;
+
+}
+
+.nav .nav-list ul li {
+    cursor: pointer;
+    float: left;
+    width: 40px;
+    margin-left: 20px;
+    /* visibility: hidden; */
+    background: url(/img/anony_nav_logo.png) no-repeat left top/463px 20px;
+    height: 20px;
+}
+
+.nav .nav-list ul li:nth-child(1) {
+    background-position: 0 0;
+}
+
+.nav .nav-list ul li:nth-child(2) {
+    background-position: -60px 0;
+}
+
+.nav .nav-list ul li:nth-child(3) {
+    background-position: -120px 0;
+}
+
+.nav .nav-list ul li:nth-child(4) {
+    background-position: -180px 0;
+}
+
+.nav .nav-list ul li:nth-child(5) {
+    background-position: -240px 0;
+}
+
+.nav .nav-list ul li:nth-child(6) {
+    background-position: -300px 0;
+}
+
+.nav .nav-list ul li:nth-child(7) {
+    background-position: -360px 0;
+}
+
+.nav .nav-list ul li:nth-child(8) {
+    background-position: -422px 0;
+    width: 42px;
+}
+
+.nav .nav-list ul li a {
+    visibility: hidden;
+}
+
+.iconsousuo {
+    color: #c2c2c2;
+}
+
+
+
+/* header部分 */
+header {
+    width: 100%;
+    height: 304px;
+    background-color: #edf4ed;
+    background: url(/img/bg.jpg) no-repeat calc(50% - 305px) top/contain #edf4ed;
+}
+
+header .header-content {
+    width: 950px;
+    margin: 0 auto;
+    height: 100%;
+    /* background: url(https://img3.doubanio.com/view/puppy_image/raw/public/16ad990ec23uwn790d4.jpg) no-repeat 15% top/contain #edf4ed; */
+}
+
+/* 下载部分 */
+header .header-content .right-download {
+    margin-top: 100px;
+    position: relative;
+    margin-right: 30px;
+}
+
+header .header-content .right-download h2 {
+    font-weight: 400;
+}
+
+header .header-content .right-download button {
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    background-color: #00B51D;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+header .header-content .right-download a img {
+    width: 100%;
+    height: 100%;
+}
+
+header .header-content .right-download .ma {
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    right: -170px;
+    top: 51px;
+    background-color: white;
+    padding: 15px 15px 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: none;
+    z-index: 1;
+    text-align: center;
+}
+
+header .header-content .right-download .ma img {
+    width: 160px;
+    height: 160px;
+}
+
+header .header-content .right-download .ma div {
+    font-size: 13px;
+    color: #666;
+    margin-top: 5px;
+}
+
+header .header-content .right-download .er {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 0;
+    border: 1px solid #00B51D;
+    border-radius: 2px;
+}
+
+header .header-content .right-download .er img {
+    width: 100%;
+    height: 100%;
+}
+
+header .header-content .right-download .er:hover+.ma,
+header .header-content .right-download .ma:hover {
+    display: block;
+}
+
+
+/* 登录区域 */
+header .header-content .login-area {
+    /* margin-top: 10px; */
+    width: 300px;
+    height: 300px;
+}
+
+/* 热点内容 */
+.hot {
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.hot .hot-content {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hot .hot-content .hot-left {
+    width: 360px;
+}
+
+.hot .hot-content .hot-left .img-show {
+    /* width: 170px; */
+}
+
+.hot .hot-content .hot-left .img-show .hot-list {
+    float: left;
+    width: 170px;
+    margin: 10px 10px 0 0px;
+}
+
+.hot .hot-content .hot-left .img-show .hot-list .hover-a {
+    font-size: 12px;
+}
+
+.hot .hot-content .hot-left .img-show .hot-list .hover-a+span {
+    font-size: 13px;
+    color: #999;
+}
+
+.hot .hot-content .hot-center {
+    width: 275px;
+    position: absolute;
+    top: 30px;
+    left: 380px;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.hot .hot-content .hot-center ul li:nth-child(2) a {
+    color: #999;
+}
+
+.hot .hot-content .hot-center ul li:nth-child(3) a {
+    color: #666;
+}
+
+.hot .hot-content .hot-center ul li:nth-child(4) a {
+    color: #666;
+}
+
+.hot .hot-content .hot-center ul li {
+    margin-bottom: 5px;
+}
+
+.hot .hot-right {
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+
+.hot .hot-right .text {
+    width: 200px;
+}
+
+.hot .hot-right .text ul li {
+    /* margin-top: 5px; */
+}
+
+.hot .hot-right .text ul .hot-right-ho {
+    color: rgb(51, 119, 170);
+    font-size: 14px;
+}
+
+.hot .hot-right .text ul .hot-right-ho:link {
+    color: #37a;
+}
+
+.hot .hot-right .text ul .hot-right-ho:visited {
+    /* color: #669; */
+}
+
+.hot .hot-right .text ul .hot-right-ho:hover {
+    background-color: rgb(51, 119, 170);
+    color: white;
+}
+
+.hot .hot-right .text ul .hot-right-ho:active {
+    background-color: orange;
+    color: white;
+}
+
+.hot .hot-right .text ul li:nth-child(2n-1) {
+    margin-top: 12px;
+}
+
+.hot .hot-right .text ul li:nth-child(2n) span {
+    color: #999;
+    font-size: 12px;
+    /* margin-top: 3px; */
+}
+
+.dou-time {
+    background-color: #f7f7f7;
+    padding: 40px 0 20px;
+}
+
+.dou-time .dou-time-content {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dou-time .dou-time-content .dou-head {
+    display: inline-block;
+    width: 115px;
+    position: absolute;
+}
+
+.dou-time .dou-time-content .dou-head h2 {
+    display: inline-block;
+    width: 118px;
+    font-weight: 400;
+    color: #494949;
+}
+
+.dou-time .dou-time-content .dou-time-main {
+    width: 830px;
+    display: inline-block;
+    position: relative;
+    left: 117px;
+    top: 7px;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li {
+    display: inline-block;
+    width: 100px;
+    margin: 10px 50px 10px 0;
+    vertical-align: top;
+    text-align: center;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li a {
+    display: block;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li a img {
+    width: 100px;
+}
+
+.dou-time .dou-time-content .dou-time-main .main .cover {
+    position: relative;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+.dou-time .dou-time-content .dou-time-main .main .cover::before {
+    content: "";
+    clear: both;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(top, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.dou-time .dou-time-content .dou-time-main .main li .video::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 10px;
+    bottom: 10px;
+    background: url(/img/video.png) center/12px no-repeat;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li .audio::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: 10px;
+    bottom: 10px;
+    background: url(/img/audio.png) center/12px no-repeat;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li .title {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li .type {
+    font-size: 11px;
+    color: #999999;
+}
+
+.dou-time .dou-time-content .dou-time-main .main li .title span:hover {
+    color: white;
+    background: rgb(51, 119, 170);
+}
+
+.dou-movie {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.dou-movie .saidnav {
+    float: left;
+    width: 100px;
+    /* margin-right: 20px; */
+    margin-top: 50px;
+}
+
+.dou-movie .saidnav h2 {
+    font-weight: 400;
+    color: #666666;
+}
+
+.dou-movie .main {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.dou-movie .main .movie-head {
+    position: relative;
+    top: 25px;
+    color: #072;
+}
+
+.dou-movie .main ul li {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.dou-movie .main ul li a img {
+    width: 250px;
+    height: 140px;
+}
+
+.dou-movie .main ul li .movie-text {
+    font-size: 13px;
+    color: #494949;
+}
+
+.dou-movie .main ul li .movie-text:hover {
+    color: white;
+    background-color: rgb(51, 119, 170);
+}
+
+.dou-movie .main ul li .movie-text:active {
+    background-color: orange;
+
+}
+
+.dou-movie .main ul li .film {
+    height: 140px;
+    position: relative;
+    display: inline-block;
+}
+
+.dou-movie .main ul li .film::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.dou-movie .main ul li .film::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url(./img/play.png) no-repeat center center;
+}
+
+.dou-film {
+    background-color: #f7f7f7;
+    height: 650px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.dou-film .dou-film-content {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.dou-film .dou-film-content .film-saidnav {
+    margin-right: 30px;
+    width: 100px;
+}
+
+.dou-film .dou-film-content .film-saidnav h2 {
+    font-weight: 400;
+    color: #27a;
+}
+
+.dou-film .dou-film-content .film-saidnav ul {
+    margin-top: 15px;
+}
+
+.dou-film .dou-film-content .film-saidnav ul li {
+    margin-top: 10px;
+    color: #27a;
+    font-size: 14px;
+}
+
+a.new::after {
+    content: "";
+    background-image: url(https://img3.doubanio.com/pics/new_menu.gif);
+    display: inline-block;
+    height: 7px;
+    width: 17px;
+    vertical-align: super;
+    margin-left: 3px;
+}
+
+.dou-film .dou-film-content .film-said .mod {
+    width: 265px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.dou-film .dou-film-content .film-said .mod .mod-list {
+    margin-top: 10px;
+}
+
+.dou-film .dou-film-content .film-said .mod .mod-list ul li {
+    display: inline-block;
+    width: 45px;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.dou-film .dou-film-content .film-said .mod .hover-a {
+    font-size: 13px;
+}
+
+.dou-film .dou-film-content .film-said .mod span:nth-child(1) {
+    color: #072;
+    vertical-align: middle;
+}
+
+.dou-film .dou-film-content .film-said .mod .mod-list ol li {
+    border-bottom: 1px solid #dddddd;
+    padding: 6px 0;
+    list-style-position: inside;
+    font-size: 12px;
+    color: #222222;
+}
+
+.dou-film {
+    overflow: hidden;
+}
+
+.dou-film .dou-film-content .film-main {
+    overflow: hidden;
+}
+
+.dou-film .dou-film-content .film-main .film-head {
+    padding-top: 5px;
+}
+
+.dou-film .dou-film-content .film-main div h2 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #072;
+}
+
+.dou-film .dou-film-content .film-main div h2 span {
+    color: rgb(51, 119, 170);
+    font-size: 13px;
+}
+
+.dou-film .dou-film-content .film-main .film-list ul li {
+    width: 100px;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.dou-film .dou-film-content .film-main .film-list ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li a img {
+    width: 100px;
+    height: 145px;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li a {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li a,
+.dou-film .dou-film-content .film-main .film-list .film-area li .appraise .xing {
+    /* text-align: center; */
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li .shop {
+    background-color: #1c8bd0;
+    width: 80px;
+    margin: 0 auto;
+    padding: 2px 0;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li .appraise .xing {
+    display: inline-block;
+    background: url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) no-repeat center top/80%;
+    width: 60px;
+    height: 10px;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li .none .xing,
+fen {
+    background: none;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li .appraise .fen {
+    font-size: 12px;
+    font-style: normal;
+    color: #e09015;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li .appraise .alert6 {
+    background-position-Y: -29px;
+}
+
+.dou-film .dou-film-content .film-main .film-list .film-area li .appraise .alert7 {
+    background-position-Y: -38px;
+}
+
+.dou-group {
+    height: 680px;
+    overflow: hidden;
+}
+
+.dou-group .dou-group-content {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 950px;
+}
+
+.dou-group .dou-group-content .group-left {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.dou-group .dou-group-content .group-left h2 a {
+    color: #007982;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.dou-group .dou-group-content .group-left ul {
+    margin-top: 15px;
+
+}
+
+.dou-group .dou-group-content .group-left ul li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.dou-group .dou-group-content .group-left ul li .hover-a {
+    color: #007982;
+}
+
+.dou-group .dou-group-content .group-left ul li .hover-a:hover {
+    color: white;
+}
+
+.dou-group .dou-group-content .group-right {
+    width: 265px;
+    margin-left: 30px;
+}
+
+.dou-group .dou-group-content .group-right h2 {
+    color: #072;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.dou-group .dou-group-content .group-right .cate {
+    margin-top: 15px;
+}
+
+.dou-group .dou-group-content .group-right .cate ul .cate-label {
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+}
+
+.dou-group .dou-group-content .group-right .cate ul li {
+    display: inline-block;
+    font-size: 12px;
+    color: #007982;
+    margin: 0 5px;
+}
+
+.dou-group .dou-group-content .group-right .cate ul li a:hover {
+    color: white;
+    background-color: rgb(51, 119, 170);
+}
+
+.dou-group .dou-group-content .group-main {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.dou-group .dou-group-content .group-main h2 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #072;
+}
+
+.dou-group .dou-group-content .group-main h2 span {
+    color: #007982;
+    font-size: 12px;
+}
+
+.dou-group .dou-group-content .group-main ul {
+    margin-top: 20px;
+}
+
+.dou-group .dou-group-content .group-main ul li {
+    display: inline-block;
+    width: 248px;
+    vertical-align: top;
+    font-size: 13px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dou-group .dou-group-content .group-main ul li a img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.dou-group .dou-group-content .group-main ul li .hover-a {
+    position: absolute;
+    /* left: 60px; */
+}
+
+.dou-group .dou-group-content .group-main ul li span {
+    font-size: 12px;
+    color: #888888;
+}
+
+.dou-read {
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+
+.dou-read .dou-read-content {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.dou-read .dou-read-content .aside-left {
+    width: 100px;
+}
+
+.dou-read .dou-read-content .aside-left h2 {
+    margin-bottom: 10px;
+}
+
+.dou-read .dou-read-content .aside-left h2 a {
+    color: #4a2f14;
+    font-weight: 400;
+}
+
+.dou-read .dou-read-content .aside-left ul li {
+    margin-top: 5px;
+ 
+}   
+.dou-read .dou-read-content .aside-left ul li a{
+    color: #614e3c;
+}
+.dou-read .dou-read-content .aside-left ul li:last-child{
+    margin-top: 20px;
+}
+.dou-read .dou-read-content .aside-left ul li:last-child a{
+    display: block;
+    font-size: 12px;
+    color: #666;
+}
+.dou-read .dou-read-content .aside-left ul li .bg{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url(../img/app_icon.jpg) no-repeat;
+    box-shadow: 1px 1px 2px #999;
+    border-radius: 5px;
+}
+.dou-read .dou-read-content .aside-right {
+    width: 260px;
+}
+
+.dou-read .dou-read-content .aside-right .title {
+    color: #072;
+    font-size: 13px;
+}
+
+.dou-read .dou-read-content .aside-right span a {
+    font-size: 12px;
+}
+
+.dou-read .dou-read-content .main {
+    overflow: hidden;
+}
+
+.dou-read .dou-read-content .aside-right ul li {
+    margin-top: 20px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.dou-read .dou-read-content .aside-right ul li .first{
+    color: #bbb;
+}
+.dou-read .dou-read-content .aside-right ul li  a {
+    margin: 0 5px;
+}
+.dou-read .dou-read-content .main .mod h2{
+    font-weight: 400;
+    font-size: 13px;
+    color: #072;
+}
+.dou-read .dou-read-content .main .mod h2 .pl a{
+    font-size: 12px;
+}
+.dou-read .dou-read-content .main  .mod .list {
+    margin-top: 30px;
+}
+.dou-read .dou-read-content .main  .mod .book-list ul li{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    /* margin-top: 30px; */
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.dou-read .dou-read-content .main  .mod .book-list ul li .title,.author{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+}
+.dou-read .dou-read-content .main  .mod .book-list ul li .bn-link{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #999a95; 
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.dou-read .dou-read-content .main  .mod .book-list ul li .bn-link:hover{
+    background-color: #878882;
+}  
+.dou-read .dou-read-content .main  .mod .book-list ul li .pic a img{
+    width: 100px;
+    height: 150px;
+}
+.dou-music .content {
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.aside-left{
+    width: 100px;
+    float: left;
+}
+.aside-right{
+    width: 260px;
+    float: right;
+}
+.dou-music .content .aside-left div h2 a{
+    font-weight: 400;
+    color: #f38c00;
+}
+.dou-music .content .aside-left ul{
+    margin-top: 15  px;
+}
+.dou-music .content .aside-left li{
+    margin-top: 10px;
+}
+.dou-music .content .aside-left  .icon .icon-area{
+    display: block;
+    width: 50px;
+    text-align: center;
+}
+.dou-music .content .aside-left  .icon div a.hover-a{
+    display: block;
+    font-size: 12px;
+}
+.dou-music .content .aside-left .icon div {
+    margin-top:20px; 
+}
+.dou-music .content .aside-left .icon div i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../img/app_icon.jpg) no-repeat;
+    background-position-x: -250px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #999;
+}
+.dou-music .content .aside-left .icon div a .se{
+    background-position-x: -50px;
+}
+.dou-music .content .aside-right h2 .title{
+    font-size: 13px;
+    color: #072;
+    font-weight: 400;
+}
+.dou-music .content .aside-right h2 .more{
+    font-size: 12px;
+    font-weight: 400;
+}
+.dou-music .content .aside-right ul li{
+    height: 50px;
+    /* font-size: 13px; */
+    position: relative;
+    margin-top: 30px;
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+.dou-music .content .aside-right ul li img{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;  
+    margin-left: 5px;
+}
+.dou-music .content .aside-right ul li span{
+    display:inline-block;
+    width: 210px;
+    position: absolute;
+    font-size: 12px;
+}
+.dou-music .content .aside-right ul li span:nth-child(4){
+    top: 40px;
+    color: #999;
+}
+.dou-music .content .aside-right ul li span:nth-child(2){
+    top: 0px;
+}
+.dou-music .content .aside-right ul li span:nth-child(3){
+    top: 20px;
+    color: #999;
+}
+.dou-music .content .main{
+    overflow: hidden;
+}
+.dou-music .content .main h2{
+    font-weight: 400;
+    font-size: 13px;
+    color: #072;
+    
+}
+
+.dou-music .content .main .album-list ul li a:hover{
+    color: #fff;
+    background-color: rgb(51, 119, 170);
+}
+.dou-music .content .main .list{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dou-music .content .main ul li{
+    display: inline-block;
+    width: 130px;
+    vertical-align: top;
+    font-size: 13px;
+    text-align: center;
+}
+.dou-music .content .main .album-list ul li .rating .allstar40{
+    display: inline-block;
+    height: 10px;
+    width: 60px;
+    background: url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) no-repeat center top/80%;
+}
+.dou-music .content .main .album-list ul li .rating .allstar45{
+    display: inline-block;
+    height: 10px;
+    width: 60px;
+    background: url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) no-repeat center top/80%;
+}
+.dou-music .content .main .album-list ul li .rating .allstar35{
+    display: inline-block;
+    height: 10px;
+    width: 60px;
+    background: url(https://img3.doubanio.com/f/shire/0147ca9efddcac80050854590d26bee587b008df/pics/rating_icons/ic_rating_s@2x.png) no-repeat center top/80%;
+}
+.dou-music .content .main .list ul li{
+    margin-bottom: 20px;
+}
+.dou-pin{
+    background-color: #f7f7f7;
+}
+.dou-pin .content{
+    padding-top: 30px;
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.dou-pin .content .aside-left .head .title{
+    font-weight: 400;
+    color: #072;
+}
+.dou-pin .content .aside-right .menu-title{
+    margin-bottom: 20px;
+}
+.dou-pin .content .aside-right .menu-title span{
+    font-size: 14px;
+    color: #072;
+}
+.dou-pin .content .aside-right .menu-title span a{
+    font-size: 12px;
+    color: #27a;
+}
+.dou-pin .content .aside-right .menu-title span a:hover{
+    color: #fff;
+    background-color: rgb(51, 119, 170);
+}
+.dou-pin .content .aside-right .mune-adv {
+    margin-bottom: 20px;
+}
+.dou-pin .content .aside-right .mune-adv div a img{
+    width: 265px;
+    height: 95px;
+}
+.dou-pin .content .aside-right .mune-adv div a.desc{
+    font-size: 14px;
+    color: rgb(51, 119, 170);
+}
+.dou-pin .content .aside-right .mune-adv div a.desc:hover{
+    color: #fff;
+}
+.dou-pin .content .main .head span{
+    color: #072;
+    font-size: 14px;
+}
+.dou-pin .content .main{
+    overflow: hidden;
+}
+.dou-pin .content .main ul li{
+    width: 240px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block
+}
+.dou-pin .content .main ul li div a img{
+    width: 240px;
+    height: 220px;
+}
+.dou-pin .content .main ul li div.about span.name{
+    float: left;
+    color: #27a;
+}
+.dou-pin .content .main ul li div.about span.mun{
+    float: right;
+    color: #E55457;
+}
+.dou-tc .content{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.dou-tc .content .aside-left div h2 a{
+    font-weight: 400;
+    color: #ec5303;
+}
+.dou-tc .content .aside-left div h2 a:hover{
+    color: #fff;
+    background-color: #ec5303;
+}
+.dou-tc .content .aside-left ul{
+    margin-top: 15px;
+}
+.dou-tc .content .aside-left ul li{
+    font-size: 14px;
+    color: #643;
+    margin-bottom: 10px;
+}
+.dou-tc .content .aside-right div h2 a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #072;
+}
+.dou-tc .content .aside-right .list-item{
+    margin-top: 15px;
+}
+.dou-tc .content .aside-right .list-item p{
+    margin-bottom: 5px;
+}
+.dou-tc .content .aside-right .list-item p a{
+    color: #643;
+    font-size: 14px;
+}
+.dou-tc .content .aside-right .list-item p a:hover{
+    color: #fff;
+    background-color: rgb(51, 119, 170);
+}
+.dou-tc .content .aside-right .list-item span{
+    margin-right: 10px;
+    font-size: 13px;
+    color: #643;
+    cursor: pointer;
+}
+.dou-tc .content .aside-right .list-item span:hover{
+    color: #fff;
+    background-color: rgb(51, 119, 170);
+}
+.dou-tc .content .main{
+    overflow: hidden;
+}
+.dou-tc .content .main div h2 a {
+    color: #072;
+    font-weight: 400;
+    font-size: 14px;
+}
+.dou-tc .content .main div h2 span{
+    color: #643;
+    font-size: 12px;
+    font-weight: 400;
+}
+.dou-tc .content .main .list-item{
+    width: 248px;
+    /* height: 100px; */
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.dou-tc .content .main .list-item .pic{
+    width: 70px;
+    height: 90px;
+    margin-right: 5px;
+}
+.dou-tc .content .main .list-item .words{
+    width: 168px;
+}
+.dou-tc .content .main .list-item .words .head{
+    font-size: 13px;
+    color: #643;
+}
+.dou-tc .content .main .list-item .words .head:hover{
+    color: #fff;
+    background-color: #27a;
+}
+.dou-tc .content .main .list-item .words .info{
+    color: #999;
+    margin-top: 8px;
+}
+.dou-tc .content .main .list-item .words .info p{
+    margin-top: 3px;
+}
+footer .content{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px dashed #999;
+    padding-bottom: 50px;
+}
+footer .content .left{
+    font-size: 12px;
+    color: #999;
+}
+footer .content .left p{
+    line-height: 1.5;
+}
+footer .content .left .link{
+    color: #27a;
+}
+footer .content .left .link:hover{
+    color: #fff;
+    background-color: #27a;
+}
+footer .content .left .tell::before{
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 15px;
+    background: url(https://img3.doubanio.com/pics/icon/jubao.png) no-repeat left top/100% #fff;
+    vertical-align: -3px;
+    margin-right: 2px;
+}
+footer .content .left .bei::before{
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 15px;
+    background: url(https://img3.doubanio.com/pics/biaoshi.gif) no-repeat left top/100%;
+    vertical-align: -3px;
+    margin-right: 2px;
+}
+footer .content .right {
+    font-size: 12px;
+    color: #27a;
+}
+footer .content .right a{
+    margin: 0 3px;
+    display: inline-block;
+}
+footer .content .right a:hover{
+    background-color: #27a;
+    color: #fff;
+}
+footer .content .right .pic{
+    margin-top: 25px;
+}

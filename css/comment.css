@@ -1,0 +1,25 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+button{
+    border: none;
+    outline: none;
+    outline-offset: 0;
+    background-color: initial;
+}
+input{
+    border: none;
+    outline: none;
+    outline-offset: 0;
+}
