@@ -967,7 +967,7 @@ fen {
     font-size: 13px;
 }
 .dou-read .dou-read-content .aside-right ul li a{
-    margin-top: 3px;
+    margin-top: 20px;
 }
 .dou-read .dou-read-content .aside-right ul li a:hover{
     color: #fff;
@@ -976,7 +976,7 @@ fen {
 .dou-read .dou-read-content .aside-right ul li .first{
     color: #bbb;
 }
-.dou-read .dou-read-content .aside-right ul li  a {
+.dou-read .dou-read-content .aside-right ul li a{
     margin: 0 5px;
 }
 .dou-read .dou-read-content .main .mod h2{
